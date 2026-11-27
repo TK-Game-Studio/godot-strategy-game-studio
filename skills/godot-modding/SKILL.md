@@ -38,7 +38,7 @@ Strategy and management games live longer with mods (RimWorld and Frostpunk 2 on
 
 ## Security
 
-- Data mods: parse with strict schemas; never `eval`/execute strings from mods.
+- Data mods: parse with strict schemas; never evaluate or run text taken from mod files as code.
 - PCK/script mods can contain malicious code; tell players clearly, let them disable code mods, and keep code-mod loading opt-in.
 - Never load mods from paths outside the user's mods folder or Workshop install folders.
 
@@ -49,4 +49,4 @@ Strategy and management games live longer with mods (RimWorld and Frostpunk 2 on
 - [ ] Load errors shown in-game, not crashes
 - [ ] Saves store mod list
 - [ ] Example mod + modding docs shipped
-- [ ] Workshop upload/download tested in an exported build
+- [ ] Workshop publishing and installing tested in an exported build

@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "description": "Plan, build, balance, playtest, market, and ship Godot 4 strategy and management games on Steam: city builders, colony sims, survival builders, 4X, grand strategy, RTS, tycoon, and roguelite builders. 14 skills covering design, genre playbooks, architecture, economy, AI agents, world generation, events, UI, 3D, audio, modding, testing, marketing, and release. Adapted from OpenAI's MIT-licensed Game Studio plugin.",
   "author": {
-    "name": "tuges77",
+    "name": "TK Game Studio",
     "url": "https://github.com/tuges77"
   },
   "license": "MIT",
@@ -32,5 +32,6 @@
     "ui"
   ],
   "homepage": "https://github.com/tuges77/godot-strategy-game-studio",
-  "repository": "https://github.com/tuges77/godot-strategy-game-studio"
+  "repository": "https://github.com/tuges77/godot-strategy-game-studio",
+  "icon": "./.claude-plugin/icon.png"
 }
