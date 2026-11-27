@@ -7,7 +7,7 @@ A Claude plugin for building strategy and management games in Godot 4 (city buil
 Claude Code:
 
 ```
-/plugin marketplace add tuges77/godot-strategy-game-studio
+/plugin marketplace add TK-Game-Studio/godot-strategy-game-studio
 /plugin install godot-strategy-game-studio@godot-strategy-game-studio
 ```
 
