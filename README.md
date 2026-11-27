@@ -1,6 +1,6 @@
 # Godot Strategy Game Studio
 
-A Claude plugin for building strategy, management, city-builder, and colony-sim games in Godot 4, from first idea to Steam release. Adapted from OpenAI's Game Studio plugin (originally for browser games with Phaser / Three.js) and expanded with genre research and 2026–2027 Steam market data.
+A Claude plugin for building strategy and management games in Godot 4 (city builders, colony sims, survival builders, 4X, grand strategy, RTS, tycoon, roguelite builders), from first idea to Steam release. Adapted from OpenAI's Game Studio plugin (originally for browser games with Phaser / Three.js) and expanded with genre research and 2026–2027 Steam market data.
 
 ## Install
 
@@ -21,11 +21,19 @@ This plugin does not run any code, send data anywhere, or connect to any server.
 
 | Skill | What it does |
 |---|---|
-| godot-game-studio | Entry point: design workflow, hook, genre patterns, routing to the others |
-| godot-foundations | Architecture: autoloads, data Resources, signals, input, simulation tick, save/load, performance, version upgrades |
+| godot-game-studio | Entry point: design workflow, hook, routing to the others |
+| godot-genre-playbooks | Playbooks for city builder, colony sim, survival, 4X, grand strategy, RTS, tactics, tycoon, roguelite builder, RPG hybrids |
+| godot-foundations | Architecture: autoloads, data Resources, signals, input, simulation tick, save/load, performance, upgrades |
+| godot-economy-balance | Production chains, costs, sinks, difficulty curves, spreadsheet and headless balance runs |
+| godot-agents-ai | Villager needs, utility AI, job boards, AStarGrid2D/navmesh/flow fields, crowds, AI opponents |
+| godot-procedural-worlds | Square/hex grids, seeded terrain and biomes, resource placement, chunks, scenarios, map editors |
+| godot-events-narrative | Event director/storyteller, data-driven events, laws, goals, chronicles, endings |
 | godot-game-ui | HUD, build menu, tooltips, menus, Theme, gamepad/Steam Deck, accessibility, localization |
-| godot-playtest | Headless checks, GdUnit4 tests, smoke and balance runs, screenshot review, reports |
 | godot-3d-assets | Code-built meshes and GLB imports, stylized lighting/materials, LOD and MultiMesh |
+| godot-audio | Adaptive music, reactive ambience, UI sounds, buses and settings |
+| godot-modding | Data mods, PCK packs, mod manager, Steam Workshop, mod security |
+| godot-playtest | Headless checks, GdUnit4 tests, smoke and balance runs, Steam Playtest, reports |
+| godot-marketing | Hook, devlogs, short video, creators, community, announcement beats |
 | godot-steam-release | Store page, demo, Next Fest, GodotSteam, export, Deck, AI disclosure |
 
 ## Requirements
@@ -36,7 +44,7 @@ This plugin does not run any code, send data anywhere, or connect to any server.
 
 ## Version
 
-0.2.0 (November 2026). Market figures in `godot-steam-release/references/steam-market-2027.md` are dated; re-check before relying on them.
+0.3.0 (November 2026). Market figures in `godot-steam-release/references/steam-market-2027.md` are dated; re-check before relying on them.
 
 ## License
 

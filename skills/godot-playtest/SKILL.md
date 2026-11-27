@@ -18,8 +18,9 @@ Test the game the way a player experiences it: boot, first minutes, main verbs, 
 3. Smoke scenes: `res://tests/smoke_*.tscn` that place buildings, advance time N ticks, save, load, and assert on state; exit with `get_tree().quit(1)` on failure. Run headless.
 4. Balance runs: headless scripted runs with a fixed RNG seed that advance many in-game days and log key curves (stock, population, happiness) to CSV for review. Compare across difficulty modes.
 5. Screenshot review: capture representative states (start, busy mid-game, late game, menu open, night/threat) via a debug key using `get_viewport().get_texture().get_image().save_png("user://shots/…png")`, or via a Godot MCP server / screen access if available. Judge readability, UI weight, and visual identity from the images.
-6. Guided manual pass: when automation can't cover it, give the user a short numbered script (what to do, what they should see) and ask for notes.
-7. Report findings in severity order.
+6. External playtests: Steam Playtest (free) or a small closed beta; add an in-game feedback button (main menu + pause) that opens a form or Discord, and attach version + seed to reports. Watch players without helping when possible; note where they hesitate.
+7. Guided manual pass: when automation can't cover it, give the user a short numbered script (what to do, what they should see) and ask for notes.
+8. Report findings in severity order.
 
 ## What To Check
 

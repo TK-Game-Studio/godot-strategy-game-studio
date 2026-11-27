@@ -1,6 +1,6 @@
 ---
 name: godot-game-studio
-description: Entry point for Godot 4 game work, especially strategy, management, city-builder, colony-sim, and cozy builder games. Use when the user says "help me build/design a game", plans a new feature or system, asks what to work on next, says the game "isn't fun yet" or "looks weak", or when a request spans design, code, UI, assets, testing, and release at once. Routes to the specialist godot-* skills.
+description: Entry point for Godot 4 game work, especially strategy, management, city-builder, colony-sim, survival, 4X, grand strategy, RTS, tycoon, and cozy builder games. Use when the user says "help me build/design a game", plans a new feature or system, asks what to work on next, says the game "isn't fun yet" or "looks weak", or when a request spans design, code, UI, assets, testing, and release at once. Routes to the specialist godot-* skills.
 ---
 
 # Godot Game Studio
@@ -27,6 +27,14 @@ Assume the user may not be a programmer. Explain decisions in plain language, ma
 | Testing a build, bugs, screenshots, automated tests, balance checks | `godot-playtest` |
 | Models, materials, lighting, imports, LOD, MultiMesh, "make it look better" | `godot-3d-assets` |
 | Steam page, demo, Next Fest, wishlists, Steamworks, export, Deck, AI disclosure | `godot-steam-release` |
+| Choosing/mixing subgenres (city builder, colony sim, survival, 4X, grand strategy, RTS, tycoon, roguelite, RPG hybrid) | `godot-genre-playbooks` |
+| Resources, production chains, prices, costs, difficulty curves, balance runs | `godot-economy-balance` |
+| Villager/colonist behavior, jobs, pathfinding, crowds, AI opponents | `godot-agents-ai` |
+| Grids, hex maps, terrain, seeded generation, biomes, scenarios, map editor | `godot-procedural-worlds` |
+| Events, storyteller/director, laws and policies, goals, chronicle, endings | `godot-events-narrative` |
+| Music, ambience, SFX, UI sounds, mixing, audio settings | `godot-audio` |
+| Mod support, data mods, PCK packs, Steam Workshop | `godot-modding` |
+| Wishlists, devlogs, creators, social video, community, Steam Playtest, announcement beats | `godot-marketing` |
 
 Keep one plan across skills: every new mechanic must name its data, its UI surface, its visual representation, how it is tested, and how it shows up in a trailer/screenshot.
 
@@ -35,11 +43,12 @@ Keep one plan across skills: every new mechanic must name its data, its UI surfa
 1. Lock the player fantasy and 3–5 primary verbs (e.g. place, assign, upgrade, inspect, expand).
 2. Define the core loop, pressure/fail states, progression, and target session length.
 3. Find the hook: one thing a stranger understands from a 5-second GIF. If there is none, design one before adding systems.
-4. Check the design against the genre patterns in `references/genre-design-patterns.md`, especially the late-game sprawl problem.
+4. Pick the subgenre playbook (`godot-genre-playbooks`) and check the design against `references/genre-design-patterns.md`, especially the late-game problem.
 5. Define data first (see `godot-foundations`), then the UI surface (see `godot-game-ui`), then visuals (see `godot-3d-assets`).
 6. Build vertical slices: each slice playable end-to-end before the next starts.
 7. Close every slice with a playtest pass (see `godot-playtest`).
 8. Plan the demo early: the first 30–60 minutes are the product that earns wishlists (see `godot-steam-release`).
+9. Start marketing alongside development, not after it (see `godot-marketing`).
 
 ## Design Guardrails (management / strategy)
 

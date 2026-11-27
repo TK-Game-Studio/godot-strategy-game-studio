@@ -9,6 +9,10 @@ Compiled November 2026. Figures move fast; re-verify with a search before quotin
 - One developer documented far fewer wishlists per impression in Feb 2026 than in Feb 2023 at a similar starting point. (Recognizing Patterns)
 - Genres with strong demo engagement in Oct 2026 included RTS, Strategy RPG, Life Sim, and City Builder; platformers were weakest. (How To Market A Game)
 
+## 2027 calendar
+- Steam Next Fest 2027 editions reported to open February 22 and June 14, 2027 (Playio blog citing Steam, Oct 2026) — confirm on Steamworks.
+- Steam Playtest is free and Valve's preferred way to run closed betas; Valve leaves feedback collection to developers (e.g. a feedback button in the main menu).
+
 ## Cozy is booming in supply, not guaranteed in sales
 - ~1,041 Cozy-tagged games released on Steam Jan–Sep 2026, up 143% vs the same weeks of 2025; only about 11% reached 1,000 reviews; Steam added the tag in a May 2026 tag overhaul, which inflates part of the growth. (Steam Page Analyzer)
 - Takeaway: "cozy" alone is not a hook. Pair it with a distinctive mechanic or visual identity.
