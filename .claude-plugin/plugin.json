@@ -1,0 +1,26 @@
+{
+  "name": "godot-strategy-game-studio",
+  "version": "0.2.0",
+  "description": "Plan, build, playtest, and ship Godot 4 games on Steam, tuned for strategy, management, city-builder, and colony-sim projects. Covers design, architecture, UI, 3D assets, testing, and Steam release. Adapted from OpenAI's MIT-licensed Game Studio plugin.",
+  "author": {
+    "name": "tuges77",
+    "url": "https://github.com/tuges77"
+  },
+  "license": "MIT",
+  "keywords": [
+    "godot",
+    "godot4",
+    "gamedev",
+    "game-design",
+    "strategy",
+    "management",
+    "city-builder",
+    "colony-sim",
+    "playtest",
+    "steam",
+    "ui",
+    "3d"
+  ],
+  "homepage": "https://github.com/tuges77/godot-strategy-game-studio",
+  "repository": "https://github.com/tuges77/godot-strategy-game-studio"
+}

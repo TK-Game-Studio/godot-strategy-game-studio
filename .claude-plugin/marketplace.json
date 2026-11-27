@@ -1,0 +1,14 @@
+{
+  "name": "godot-strategy-game-studio",
+  "description": "Godot 4 skills for strategy, management, city-builder and colony-sim games",
+  "owner": {
+    "name": "tuges77"
+  },
+  "plugins": [
+    {
+      "name": "godot-strategy-game-studio",
+      "source": "./",
+      "description": "Plan, build, playtest, and ship Godot 4 games on Steam, tuned for strategy, management, city-builder, and colony-sim projects. Covers design, architecture, UI, 3D assets, testing, and Steam release. Adapted from OpenAI's MIT-licensed Game Studio plugin."
+    }
+  ]
+}
